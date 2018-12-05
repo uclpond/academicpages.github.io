@@ -7,6 +7,14 @@ author_profile: true
 
 {% include base_path %}
 
+Team
+======
+  <ul>
+    {% for post in site.team %}
+    <li>{% include archive-single.html %}</li>
+  {% endfor %}
+  </ul>
+
 Postdocs
 ======
   <ul>{% for post in site.team.postdocs %}
