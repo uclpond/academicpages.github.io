@@ -11,14 +11,14 @@ Team
 ======
   <ul>
     {% for post in site.team %}
-    <li>{% include archive-single.html %}</li>
+    <li>{% include single.html %}</li>
   {% endfor %}
   </ul>
 
 Postdocs
 ======
   <ul>{% for post in site.team.postdocs %}
-    {% include archive-single.html %}
+    {% include archive.html %}
   {% endfor %}</ul>
 
 Students
