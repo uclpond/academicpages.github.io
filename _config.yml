@@ -116,6 +116,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _team/postdocs
   - files
 exclude:
   - "*.sublime-project"
